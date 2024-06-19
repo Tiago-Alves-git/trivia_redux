@@ -1,3 +1,4 @@
+import { Typography } from '@mui/material';
 import React, { Component } from 'react';
 
 const ONE_SECOND = 1000;
@@ -34,7 +35,7 @@ class Timer extends Component {
   render() {
     const { timer } = this.state;
     return (
-      <div>{ timer }</div>
+      <Typography color="white">{ timer }</Typography>
     );
   }
 }

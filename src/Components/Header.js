@@ -1,10 +1,12 @@
 import React from 'react';
-import md5 from 'crypto-js/md5';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import '../Style/Header.css';
+import Icon from '@mdi/react';
+import { mdiCounter } from '@mdi/js';
 import { TiHome } from 'react-icons/ti';
 import { withRouter } from 'react-router-dom';
+import { Box, Button, Typography } from '@mui/material';
 import { resetScore } from '../redux/actions/actions';
 
 class Header extends React.Component {
@@ -15,24 +17,31 @@ class Header extends React.Component {
   };
 
   render() {
-    const { name, email, score } = this.props;
-    const hash = md5(email).toString();
+    const { name, score } = this.props;
     return (
-      <div>
-        <div className="HeaderContent">
-          <button type="button" onClick={ this.handleHome } data-testid="btn-go-home">
-            <TiHome pointerEvents="none" />
-          </button>
-          <img data-testid="header-profile-picture" src={ `https://www.gravatar.com/avatar/${hash}` } alt="Profile" />
-          <p data-testid="header-player-name">
-            { name.charAt(0).toUpperCase()
-          + name.slice(1) }
-          </p>
-          <p data-testid="header-score">
+      <Box>
+        <Box className="HeaderContent">
+          <Button onClick={ this.handleHome } data-testid="btn-go-home">
+            <TiHome pointerEvents="none" color="yellow" size={ 20 } />
+          </Button>
+          <Typography
+            color="yellow"
+            sx={ {
+              display: 'flex', alignContent: 'center', gap: '10px' } }
+          >
+            <Icon path={ mdiCounter } size={ 1 } />
+            Pontuação :
+            {' '}
             { score }
-          </p>
-        </div>
-      </div>
+          </Typography>
+          <Typography color="yellow">
+            {' '}
+            { name.charAt(0).toUpperCase()
+              + name.slice(1) }
+            {' '}
+          </Typography>
+        </Box>
+      </Box>
     );
   }
 }

@@ -1,6 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withRouter } from 'react-router-dom';
+import { Button, Typography } from '@mui/material';
+import Icon from '@mdi/react';
+import { mdiCog } from '@mdi/js';
 
 class SettingsButton extends React.Component {
   handleClick = () => {
@@ -10,13 +13,17 @@ class SettingsButton extends React.Component {
 
   render() {
     return (
-      <button
+      <Button
         onClick={ this.handleClick }
-        type="button"
         data-testid="btn-settings"
+        color="secondary"
+        endIcon={ (
+          <Icon path={ mdiCog } size={ 1 } color="yellow" />
+        ) }
+        sx={ { m: 1 } }
       >
-        Settings
-      </button>
+        <Typography color="yellow"> CONFIGURAÇÃO </Typography>
+      </Button>
     );
   }
 }

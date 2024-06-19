@@ -3,11 +3,11 @@ import React from 'react';
 import { connect } from 'react-redux';
 import Header from '../Components/Header';
 import Load from '../Components/Load';
-import QuestionCards from '../Components/QuestionCards';
-import requestQuestions from '../Requisiçoẽs/RequestQuestions';
+// import QuestionCards from '../Components/QuestionCards';
 import './Game.css';
 import setResults from '../redux/actions/actions';
-import RankingButton from '../Components/RankingButton';
+import NewQuestions from '../Resources/Questions.json';
+import NewCards from '../Components/newCards';
 
 class Game extends React.Component {
   constructor() {
@@ -20,13 +20,12 @@ class Game extends React.Component {
   async componentDidMount() {
     const { history, dispatch, Questions } = this.props;
     // const fail = 3;
-    const token = localStorage.getItem('token');
-    const requestQuestion = await requestQuestions(token);
-    if (requestQuestion.results.length === 0) {
+    // const token = localStorage.getItem('token');
+    if (!NewQuestions) {
       localStorage.clear();
       history.push('/');
     } else {
-      const Results = requestQuestion.results;
+      const Results = NewQuestions;
       this.setState({
         canUptade: true,
       });
@@ -40,12 +39,11 @@ class Game extends React.Component {
     const { canUptade } = this.state;
     return (
       <div>
-        <RankingButton />
         { !canUptade ? <Load /> : (
           <>
             <Header />
-            <div>Game</div>
-            <QuestionCards />
+            {/* <QuestionCards /> */}
+            <NewCards />
           </>
         ) }
       </div>

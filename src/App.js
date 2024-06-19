@@ -7,7 +7,7 @@ import store from './redux';
 import Login from './pages/Login';
 import Game from './pages/Game';
 import Feedback from './pages/Feedback';
-import Rankings from './pages/Ranking';
+import Ranking from './pages/Ranking';
 
 export default function App() {
   return (
@@ -15,10 +15,10 @@ export default function App() {
       <Provider store={ store }>
         <Switch>
           <Route exact path="/" component={ Login } />
-          <Route path="/game" component={ Game } />
+          <Route exact path="/game" component={ Game } />
           <Route path="/settings" component={ Settings } />
           <Route path="/feedback" component={ Feedback } />
-          <Route path="/rankings" component={ Rankings } />
+          <Route path="/rankings" component={ Ranking } />
         </Switch>
       </Provider>
     </BrowserRouter>

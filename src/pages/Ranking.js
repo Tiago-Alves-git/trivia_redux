@@ -2,8 +2,10 @@ import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import { TiHome } from 'react-icons/ti';
 import { connect } from 'react-redux';
+import { Box, Button } from '@mui/material';
 import PlayersCards from '../Components/PlayersCards';
 import { resetScore } from '../redux/actions/actions';
+import Header from '../Components/Header';
 
 class Rankings extends Component {
   handleHome = async () => {
@@ -14,15 +16,14 @@ class Rankings extends Component {
 
   render() {
     return (
-      <h1
-        data-testid="ranking-title"
-      >
-        <button type="button" onClick={ this.handleHome } data-testid="btn-go-home">
+      <Box sx={ { display: 'flex' } }>
+        <Header />
+        <Button onClick={ this.handleHome } data-testid="btn-go-home">
           <TiHome pointerEvents="none" />
-        </button>
+        </Button>
         Rankings
         <PlayersCards />
-      </h1>
+      </Box>
     );
   }
 }

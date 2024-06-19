@@ -1,10 +1,12 @@
 body {
-  box-sizing: border-box;
+  background-color: darkgreen;
   margin: 0;
+  overflow: hidden;
   padding: 0;
 }
 
 .App {
+  height: 100vh;
   text-align: center;
 }
 
@@ -30,13 +32,12 @@ body {
 
 .App-header {
   align-items: center;
-  background-color: #282c34;
-  color: white;
   display: flex;
   flex-direction: column;
   font-size: calc(10px + 2vmin);
+  gap: 100px;
   justify-content: center;
-  min-height: 100vh;
+  margin-top: 10vh;
 }
 
 .App-link {

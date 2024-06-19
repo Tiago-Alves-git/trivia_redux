@@ -1,0 +1,350 @@
+{
+  "Questions": [
+    {
+      "Pergunta": "Ao observar uma situação, qual pergunta te ajuda a identificar seus sentimentos",
+      "Opções": ["a) Por que isso aconteceu comigo?", 
+      "b) O que ele/ela estava pensando?",
+      "c) Como essa situação me fez sentir?",
+      "d) O que eu deveria ter feito diferente?"
+      ],
+      "PerguntaCorreta": 2
+    },
+    {
+      "Pergunta": "Qual das alternativas NÃO representa uma necessidade humana básica, segundo a CNV:",
+      "Opções": ["a) Segurança", 
+      "b) Conexão", 
+      "c) Autonomia", 
+      "d) Julgamento"
+      ],
+      "PerguntaCorreta": 3
+    },
+    {
+      "Pergunta": "Ao expressar um pedido, qual frase é mais alinhada com a CNV:",
+      "Opções": ["a) Você precisa parar de fazer isso!", 
+      "b) Eu exijo que você mude seu comportamento.", 
+      "c) Eu gostaria que você me escutasse com atenção.", 
+      "d) Você sempre faz a mesma coisa!"
+      ],
+      "PerguntaCorreta": 2
+    },
+    {
+      "Pergunta": "Qual a importância da empatia na Comunicação Não Violenta:",
+      "Opções": ["a) Julgar as ações dos outros.", 
+      "b) Convencer os outros a mudar.", 
+      "c) Compreender os sentimentos e necessidades do outro.", 
+      "d) Impor suas próprias opiniões."
+      ],
+      "PerguntaCorreta": 2
+    },
+    {
+      "Pergunta": "Qual o objetivo principal da Comunicação Não Violenta:",
+      "Opções": ["a) Evitar conflitos a todo custo.", 
+      "b) Resolver todos os problemas instantaneamente.", 
+      "c) Criar conexão e colaboração entre as pessoas.", 
+      "d) Manipular os outros para conseguir o que você quer."
+      ],
+      "PerguntaCorreta": 2
+    }],
+      "QuestõesInterativas": [
+        {
+          "Pergunta": "Ao ouvir uma opinião diferente da sua, você:",
+          "Opções": [
+            "a) Tenta convencer a pessoa de que você está certo.",
+            "b) Escuta atentamente para entender o ponto de vista dela.",
+            "c) Finge concordar, mas discorda internamente.",
+            "d) Evita a conversa para não gerar conflito."
+          ],
+          "PerguntaCorreta": 1
+        },
+        {
+          "Pergunta": "Quando alguém te magoa com palavras, você:",
+          "Opções": [
+            "a) Responde com palavras duras, buscando vingança.",
+            "b) Se cala, mas guarda ressentimento.",
+            "c) Expressa seus sentimentos e necessidades de forma clara e respeitosa.",
+            "d) Corta contato com a pessoa para evitar mais sofrimento."
+          ],
+          "PerguntaCorreta": 2
+        },
+        {
+          "Pergunta": "Ao fazer um pedido, você:",
+          "Opções": [
+            "a) Exige que a pessoa faça o que você quer.",
+            "b) Manipula a pessoa para conseguir o que deseja.",
+            "c) Explica suas necessidades e sentimentos, buscando colaboração.",
+            "d) Desiste do pedido, com medo de ser rejeitado."
+          ],
+          "PerguntaCorreta": 2
+        },
+        {
+          "Pergunta": "Ao cometer um erro, você:",
+          "Opções": [
+            "a) Se culpa e se pune severamente.",
+            "b) Tenta justificar seu erro, culpando os outros.",
+            "c) Assume a responsabilidade e busca reparar o dano.",
+            "d) Esconde o erro, com medo de ser julgado."
+          ],
+          "PerguntaCorreta": 2
+        },
+        {
+          "Pergunta": "Ao receber um elogio, você:",
+          "Opções": [
+            "a) Desconsidera o elogio, achando que não merece.",
+            "b) Aceita o elogio com gratidão e reconhecimento.",
+            "c) Usa o elogio para se gabar e se sentir superior.",
+            "d) Desconfia do elogio, achando que há segundas intenções."
+          ],
+          "PerguntaCorreta": 1
+        },
+        {
+          "Pergunta": "Em uma discussão acalorada, você:",
+          "Opções": [
+            "a) Levanta a voz e ataca a outra pessoa.",
+            "b) Se cala e evita o conflito.",
+            "c) Escuta a outra pessoa e tenta entender seu ponto de vista.",
+            "d) Expressa seus sentimentos e necessidades de forma respeitosa."
+          ],
+          "PerguntaCorreta": 3
+        },
+        {
+          "Pergunta": "Ao se deparar com uma injustiça, você:",
+          "Opções": [
+            "a) Busca vingança contra os responsáveis.",
+            "b) Se cala e aceita a situação por medo.",
+            "c) Se manifesta pacificamente, defendendo seus direitos.",
+            "d) Se afasta da situação para evitar conflitos."
+          ],
+          "PerguntaCorreta": 2
+        },
+        {
+          "Pergunta": "Ao precisar dizer 'não', você:",
+          "Opções": [
+            "a) Diz 'não' de forma clara e direta, explicando seus motivos.",
+            "b) Inventa desculpas para evitar dizer 'não' diretamente.",
+            "c) Diz 'sim' mesmo sem querer, por medo de desagradar.",
+            "d) Se sente culpado por dizer 'não' e tenta compensar a pessoa."
+          ],
+          "PerguntaCorreta": 0
+        },
+        {
+          "Pergunta": "Ao perceber alguém triste, você:",
+          "Opções": [
+            "a) Demonstra empatia e oferece apoio, ouvindo com atenção.",
+            "b) Tenta animar a pessoa com piadas e distrações.",
+            "c) Ignora os sentimentos da pessoa.",
+            "d) Dá conselhos e soluções, mesmo sem a pessoa pedir."
+          ],
+          "PerguntaCorreta": 0
+        },
+        {
+          "Pergunta": "Em um conflito com alguém que você ama, você:",
+          "Opções": [
+            "a) Prioriza estar certo, mesmo que magoe a pessoa.",
+            "b) Cede aos desejos da pessoa, mesmo que vá contra suas necessidades.",
+            "c) Busca uma solução que atenda às necessidades de ambos.",
+            "d) Evita o conflito, engolindo suas emoções."
+          ],
+          "PerguntaCorreta": 2
+        },
+        {
+          "Pergunta": "Quando você está com raiva, você:",
+          "Opções": [
+            "a) Explode e desconta sua raiva nos outros.",
+            "b) Guarda a raiva para si mesmo, remoendo-a internamente.",
+            "c) Expressa sua raiva de forma assertiva, falando sobre seus sentimentos e necessidades.",
+            "d) Tenta se distrair para esquecer a raiva."
+          ],
+          "PerguntaCorreta": 2
+        },
+        {
+          "Pergunta": "Ao receber um feedback negativo, você:",
+          "Opções": [
+            "a) Se defende e justifica suas ações.",
+            "b) Se sente ofendido e ataca a pessoa que deu o feedback.",
+            "c) Escuta o feedback com atenção e busca entender o ponto de vista da outra pessoa.",
+            "d) Ignora o feedback e finge que não te afetou."
+          ],
+          "PerguntaCorreta": 2
+        },
+        {
+          "Pergunta": "Quando você discorda de alguém, você:",
+          "Opções": [
+            "a) Tenta impor sua opinião, usando argumentos agressivos.",
+            "b) Expressa sua discordância de forma respeitosa, explicando seus motivos e buscando um diálogo construtivo.",
+            "c) Evita o confronto e finge concordar, mesmo discordando.",
+            "d) Muda de assunto para evitar o conflito."
+          ],
+          "PerguntaCorreta": 1
+        },
+        {
+          "Pergunta": "Ao se sentir frustrado, você:",
+          "Opções": [
+            "a) Desconta sua frustração nos outros, culpando-os pelos seus problemas.",
+            "b) Se isola e se pune por não ter conseguido o que queria.",
+            "c) Identifica a causa da frustração e busca soluções para o problema.",
+            "d) Se distrai com atividades prazerosas para esquecer a frustração."
+          ],
+          "PerguntaCorreta": 2
+        },
+        {
+          "Pergunta": "Ao expressar seus sentimentos, você:",
+          "Opções": [
+            "a) Usa uma linguagem vaga e generalizada, como 'estou mal' ou 'estou bem'.",
+            "b) Expressa seus sentimentos de forma clara e específica, usando palavras que descrevem o que você está sentindo.",
+            "c) Esconde seus sentimentos por medo de ser julgado ou rejeitado.",
+            "d) Expressa seus sentimentos de forma exagerada, dramatizando a situação."
+          ],
+          "PerguntaCorreta": 1
+        },
+        {
+          "Pergunta": "Ao ouvir alguém expressar seus sentimentos, você:",
+          "Opções": [
+            "a) Minimiza os sentimentos da pessoa, dizendo que ela está exagerando ou que não é para tanto.",
+            "b) Tenta dar conselhos e soluções para o problema da pessoa, mesmo sem ela pedir.",
+            "c) Escuta com atenção e empatia, validando os sentimentos da pessoa e oferecendo apoio.",
+            "d) Muda de assunto ou se distrai, evitando lidar com as emoções da outra pessoa."
+          ],
+          "PerguntaCorreta": 2
+        },
+        {
+          "Pergunta": "Em um momento de tensão, você:",
+          "Opções": [
+            "a) Grita e se exalta, perdendo o controle de suas emoções.",
+            "b) Se cala e se fecha, evitando expressar seus sentimentos.",
+            "c) Respira fundo e tenta se acalmar, buscando uma forma construtiva de lidar com a situação.",
+            "d) Se afasta da situação e evita o confronto."
+          ],
+          "PerguntaCorreta": 2
+        },
+        {
+          "Pergunta": "Ao pedir desculpas, você:",
+          "Opções": [
+            "a) Minimiza seu erro e culpa os outros ou as circunstâncias.",
+            "b) Se desculpa de forma superficial, sem realmente se arrepender do que fez.",
+            "c) Reconhece seu erro, assume a responsabilidade e expressa seu arrependimento de forma sincera.",
+            "d) Evita pedir desculpas, por medo de parecer fraco ou vulnerável."
+          ],
+          "PerguntaCorreta": 2
+        },
+        {
+          "Pergunta": "Ao receber um pedido, você:",
+          "Opções": [
+            "a) Diz 'sim' automaticamente, mesmo sem querer ou sem ter tempo.",
+            "b) Diz 'não' de forma agressiva, sem explicar seus motivos.",
+            "c) Avalia o pedido com cuidado, considerando suas próprias necessidades e limites, e responde de forma clara e honesta.",
+            "d) Ignora o pedido, esperando que a pessoa desista."
+          ],
+          "PerguntaCorreta": 2
+        },
+        {
+          "Pergunta": "Ao compartilhar seus sentimentos com alguém, você:",
+          "Opções": [
+            "a) Usa uma linguagem acusatória, culpando a outra pessoa por seus sentimentos.",
+            "b) Expressa seus sentimentos de forma clara e direta, sem acusar a outra pessoa.",
+            "c) Guarda seus sentimentos para si, evitando compartilhar por medo de ser julgado.",
+            "d) Dramatiza seus sentimentos, buscando atenção e simpatia."
+          ],
+          "PerguntaCorreta": 1
+        },
+        {
+          "Pergunta": "Quando você percebe que magoou alguém, você:",
+          "Opções": [
+            "a) Nega a responsabilidade e culpa a outra pessoa por ser sensível demais.",
+            "b) Minimiza o impacto de suas ações, dizendo que não foi tão grave assim.",
+            "c) Reconhece o impacto de suas ações, pede desculpas sinceras e busca reparar o dano causado.",
+            "d) Evita falar sobre o assunto, esperando que a pessoa esqueça o ocorrido."
+          ],
+          "PerguntaCorreta": 2
+        },
+        {
+          "Pergunta": "Ao receber um pedido que você não pode ou não quer atender, você:",
+          "Opções": [
+            "a) Diz 'sim' por medo de desagradar a pessoa, mesmo sabendo que não poderá cumprir.",
+            "b) Diz 'não' de forma agressiva, sem explicar seus motivos ou oferecer alternativas.",
+            "c) Explica seus motivos de forma clara e respeitosa, oferecendo alternativas ou soluções possíveis.",
+            "d) Ignora o pedido, esperando que a pessoa desista ou esqueça."
+          ],
+          "PerguntaCorreta": 2
+        },
+        {
+          "Pergunta": "Quando você se sente criticado, você:",
+          "Opções": [
+            "a) Escuta a crítica com atenção, buscando entender o ponto de vista da outra pessoa e extrair aprendizados.",
+            "b) Ataca a pessoa que te criticou, buscando defender sua imagem e reputação.",
+            "c) Se fecha e se isola, evitando qualquer tipo de contato com a pessoa que te criticou.",
+            "d) Finge que não se importa com a crítica, mas se sente magoado e ressentido por dentro."
+          ],
+          "PerguntaCorreta": 0
+        },
+        {
+          "Pergunta": "Ao expressar gratidão, você:",
+          "Opções": [
+            "a) Agradece de forma superficial, sem realmente sentir gratidão.",
+            "b) Agradece apenas quando recebe algo material ou um favor concreto.",
+            "c) Expressa sua gratidão de forma sincera e específica, reconhecendo o valor da ação ou do gesto da outra pessoa.",
+            "d) Se sente envergonhado ao expressar gratidão, achando que está sendo piegas ou meloso."
+          ],
+          "PerguntaCorreta": 2
+        },
+        {
+          "Pergunta": "Em uma conversa difícil, você:",
+          "Opções": [
+            "a) Interrompe a outra pessoa constantemente, impondo suas próprias ideias e opiniões.",
+            "b) Fica na defensiva, buscando proteger seus próprios interesses e evitar vulnerabilidade.",
+            "c) Escuta ativamente a outra pessoa, buscando entender suas necessidades e sentimentos, mesmo que discorde.",
+            "d) Evita expressar suas próprias opiniões e sentimentos, por medo de gerar conflito ou desagradar a outra pessoa."
+          ],
+          "PerguntaCorreta": 2
+        },
+        {
+          "Pergunta": "Ao lidar com um conflito em grupo, você:",
+          "Opções": [
+            "a) Toma partido de um dos lados, alimentando a polarização e o conflito.",
+            "b) Se afasta do conflito, evitando se envolver e esperando que os outros resolvam o problema.",
+            "c) Impõe sua própria solução para o conflito, sem considerar as opiniões e necessidades dos outros.",
+            "d) Busca mediar o conflito, facilitando o diálogo e a busca por soluções que atendam às necessidades de todos."
+          ],
+          "PerguntaCorreta": 3
+        },
+        {
+          "Pergunta": "Ao dar feedback para alguém, você:",
+          "Opções": [
+            "a) Foca nos aspectos negativos, criticando a pessoa e apontando seus erros e defeitos.",
+            "b) Oferece feedback construtivo, focando em comportamentos específicos e oferecendo sugestões de melhoria.",
+            "c) Elogia a pessoa de forma genérica, sem especificar o que ela fez de bom ou como pode melhorar.",
+            "d) Evita dar feedback, por medo de magoar a pessoa ou gerar conflitos."
+          ],
+          "PerguntaCorreta": 1
+        },
+        {
+          "Pergunta": "Ao receber um pedido de ajuda, você:",
+          "Opções": [
+            "a) Diz 'sim' imediatamente, mesmo sem ter tempo ou recursos para ajudar.",
+            "b) Diz 'não' de forma seca e direta, sem oferecer explicações ou alternativas.",
+            "c) Avalia sua disponibilidade e recursos, e responde de forma clara e honesta, oferecendo ajuda na medida do possível.",
+            "d) Se sente culpado por não poder ajudar e tenta compensar a pessoa de outra forma, mesmo que isso não seja o que ela precisa."
+          ],
+          "PerguntaCorreta": 2
+        },
+        {
+          "Pergunta": "Ao expressar suas necessidades, você:",
+          "Opções": [
+            "a) Expressa suas necessidades de forma clara e direta, explicando como elas se relacionam com seus sentimentos e valores.",
+            "b) Exige que suas necessidades sejam atendidas imediatamente, sem considerar as necessidades dos outros.",
+            "c) Esconde suas necessidades, por medo de ser visto como egoísta ou carente.",
+            "d) Manipula os outros para que suas necessidades sejam atendidas, usando chantagem emocional ou culpa."
+          ],
+          "PerguntaCorreta": 0
+        },
+        {
+          "Pergunta": "Ao lidar com suas próprias emoções, você:",
+          "Opções": [
+            "a) Reprime suas emoções, tentando ignorá-las ou fingir que não existem.",
+            "b) Se deixa levar pelas emoções, agindo de forma impulsiva e sem pensar nas consequências.",
+            "c) Identifica e nomeia suas emoções, buscando entender suas causas e expressá-las de forma saudável.",
+            "d) Busca distrações para evitar sentir suas emoções, como comida, álcool, drogas ou atividades compulsivas."
+          ],
+          "PerguntaCorreta": 2
+        }
+      ]        
+}

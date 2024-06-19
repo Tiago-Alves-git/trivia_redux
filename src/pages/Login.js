@@ -1,6 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
+import { Box, Button, TextField, Typography } from '@mui/material';
+import Icon from '@mdi/react';
+import { mdiPlay } from '@mdi/js';
 import SettingsButton from '../Components/SettingsButton';
 import fetchTokenApi from '../Requisiçoẽs/RequestToken';
 import { userAction } from '../redux/actions/actions';
@@ -46,40 +49,70 @@ class Login extends React.Component {
   render() {
     const { disabled } = this.state;
     return (
-      <div className="App">
-        <header className="App-header">
-          <RankingButton />
+      <Box className="App">
+        <Box className="App-header">
+          <Typography color="yellow">
+            Ranking:
+            {' '}
+            <RankingButton className="rkngBtn" />
+          </Typography>
           <img src={ logo } className="App-logo" alt="logo" />
-          <p>SUA VEZ</p>
-          <div>
-            <label htmlFor="name-input">
-              <input
+          {/* <Typography className="login-title">SUA VEZ</Typography> */}
+          <Box sx={ { display: 'flex' } }>
+            <Box sx={ { display: 'flex', flexDirection: 'column' } }>
+              <TextField
+                InputLabelProps={ { style: { color: 'white' } } }
+                label="Seu Nome"
+                color="warning"
                 onChange={ this.handleChange }
                 name="name"
                 data-testid="input-player-name"
                 id="name-input"
+                sx={ { m: 1,
+                  width: '25ch',
+                  '& .MuiOutlinedInput-root': {
+                    color: 'white',
+                    '& .MuiOutlinedInput-notchedOutline': {
+                      borderColor: 'white',
+                    },
+                  } } }
               />
-            </label>
-            <label htmlFor="email-input">
-              <input
+              <TextField
+                InputLabelProps={ { style: { color: 'white' } } }
+                label="Seu Email"
+                color="warning"
                 name="email"
                 onChange={ this.handleChange }
                 data-testid="input-gravatar-email"
                 id="email-input"
+                sx={ { m: 1,
+                  width: '25ch',
+                  '& .MuiOutlinedInput-root': {
+                    color: 'white',
+                    '& .MuiOutlinedInput-notchedOutline': {
+                      borderColor: 'white',
+                    },
+                  } } }
               />
-            </label>
-            <button
+            </Box>
+            <Button
               disabled={ disabled }
-              type="button"
               data-testid="btn-play"
               onClick={ this.handleClick }
+              endIcon={ (
+                <Icon
+                  path={ mdiPlay }
+                  size={ 1 }
+                  color={ disabled ? 'disabled' : 'yellow' }
+                />) }
+              sx={ { m: 1 } }
             >
-              Play
-            </button>
+              <Typography color={ disabled ? 'disabled' : 'yellow' }> JOGAR </Typography>
+            </Button>
             <SettingsButton />
-          </div>
-        </header>
-      </div>
+          </Box>
+        </Box>
+      </Box>
     );
   }
 }

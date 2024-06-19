@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
+import { Button } from '@mui/material';
+import Icon from '@mdi/react';
+import { mdiTrophy } from '@mdi/js';
 
 class RankingButton extends Component {
   handleClick = () => {
@@ -11,13 +14,18 @@ class RankingButton extends Component {
 
   render() {
     return (
-      <button
+      <Button
         onClick={ this.handleClick }
-        type="button"
         data-testid="btn-ranking"
+        className="RankingBtn"
+        color="secondary"
       >
-        Ranking
-      </button>
+        <Icon
+          path={ mdiTrophy }
+          size={ 1 }
+          color="yellow"
+        />
+      </Button>
     );
   }
 }
